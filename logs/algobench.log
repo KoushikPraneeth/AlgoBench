@@ -1,0 +1,13 @@
+22:58:39.113 [main] ERROR com.algobench.pro.algorithm.sorting.SortingAlgorithm - Input array is null
+22:58:39.120 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 0
+22:58:39.121 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+22:58:39.123 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 8
+22:58:39.123 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+22:58:39.125 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5
+22:58:39.125 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+22:58:39.128 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5
+22:58:39.128 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+22:58:39.129 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1
+22:58:39.129 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+22:58:39.130 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 7
+22:58:39.130 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
