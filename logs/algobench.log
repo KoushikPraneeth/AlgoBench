@@ -434,3 +434,510 @@ java.util.IllegalFormatConversionException: f != java.lang.Long
 00:30:01.702 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2144 ms
 00:30:01.702 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
 00:30:01.703 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Binary Search
+00:45:10.876 [main] INFO  com.algobench.pro.util.config.ConfigurationManager - Configuration loaded successfully
+00:45:10.879 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:45:10.880 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:45:10.880 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:45:10.880 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:45:10.880 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:45:10.881 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:45:10.882 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Quick Sort
+00:45:10.882 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 1000
+00:45:11.354 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:11.359 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:11.735 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:11.738 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:11.986 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:11.990 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:12.481 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:12.484 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:12.715 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:12.716 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:12.947 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:12.948 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:13.181 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:13.204 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:13.493 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:45:13.493 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:13.494 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2611 ms
+00:45:13.494 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:45:13.494 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 5000
+00:45:13.733 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:13.737 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:13.985 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:13.987 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:14.240 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:14.243 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:14.619 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:14.623 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:14.876 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:14.879 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:15.122 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:15.125 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:15.380 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:15.382 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:15.625 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:45:15.628 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:15.630 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2136 ms
+00:45:15.630 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:45:15.630 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 10000
+00:45:15.877 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:15.880 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:16.129 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:16.134 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:16.388 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:16.395 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:16.906 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:16.921 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:17.371 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:17.374 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:17.618 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:17.620 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:17.865 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:17.871 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:18.117 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:45:18.122 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:18.123 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2491 ms
+00:45:18.123 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:45:18.123 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 50000
+00:45:18.367 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:18.390 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:18.634 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:18.657 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:18.896 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:18.920 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:19.416 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:19.439 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:19.684 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:19.708 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:19.952 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:19.975 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:20.222 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:20.245 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:20.491 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:45:20.514 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:45:20.515 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2392 ms
+00:45:20.515 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:45:20.515 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Quick Sort
+00:45:20.537 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:45:20.537 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:45:20.537 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:45:20.537 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:45:20.538 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:45:20.538 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:45:20.538 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Binary Search
+00:45:20.538 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 1000
+00:45:20.877 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 54 in array of length: 1000
+00:45:20.877 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 54
+00:45:21.110 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 858 in array of length: 1000
+00:45:21.111 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 858
+00:45:21.470 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 36 in array of length: 1000
+00:45:21.471 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 36
+00:45:21.942 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 772 in array of length: 1000
+00:45:21.943 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 772
+00:45:22.174 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 402 in array of length: 1000
+00:45:22.174 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 402
+00:45:22.411 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 865 in array of length: 1000
+00:45:22.411 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 865
+00:45:22.647 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 796 in array of length: 1000
+00:45:22.648 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 796
+00:45:22.767 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 993 in array of length: 1000
+00:45:22.767 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 993
+00:45:22.768 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2230 ms
+00:45:22.769 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:45:22.769 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 5000
+00:45:23.015 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4843 in array of length: 5000
+00:45:23.015 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4843
+00:45:23.260 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2227 in array of length: 5000
+00:45:23.260 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2227
+00:45:23.497 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1576 in array of length: 5000
+00:45:23.497 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1576
+00:45:23.970 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4620 in array of length: 5000
+00:45:23.970 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4620
+00:45:24.209 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2810 in array of length: 5000
+00:45:24.210 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2810
+00:45:24.446 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 674 in array of length: 5000
+00:45:24.447 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 674
+00:45:24.694 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4003 in array of length: 5000
+00:45:24.695 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4003
+00:45:24.821 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3882 in array of length: 5000
+00:45:24.822 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3882
+00:45:24.822 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2053 ms
+00:45:24.822 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:45:24.823 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 10000
+00:45:25.055 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1415 in array of length: 10000
+00:45:25.056 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1415
+00:45:25.298 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8873 in array of length: 10000
+00:45:25.299 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8873
+00:45:25.536 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4258 in array of length: 10000
+00:45:25.537 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4258
+00:45:26.009 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 6761 in array of length: 10000
+00:45:26.009 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6761
+00:45:26.246 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8209 in array of length: 10000
+00:45:26.247 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8209
+00:45:26.486 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 9690 in array of length: 10000
+00:45:26.487 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 9690
+00:45:26.734 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1876 in array of length: 10000
+00:45:26.734 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1876
+00:45:27.093 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4118 in array of length: 10000
+00:45:27.094 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4118
+00:45:27.095 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2272 ms
+00:45:27.096 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:45:27.096 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 50000
+00:45:27.337 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 10271 in array of length: 50000
+00:45:27.337 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 10271
+00:45:27.578 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 23666 in array of length: 50000
+00:45:27.579 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 23666
+00:45:27.820 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 6227 in array of length: 50000
+00:45:27.820 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6227
+00:45:28.298 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 39549 in array of length: 50000
+00:45:28.299 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 39549
+00:45:28.540 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 38100 in array of length: 50000
+00:45:28.541 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 38100
+00:45:28.779 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 12186 in array of length: 50000
+00:45:28.780 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 12186
+00:45:28.901 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 49371 in array of length: 50000
+00:45:28.902 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 49371
+00:45:29.149 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 25300 in array of length: 50000
+00:45:29.149 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 25300
+00:45:29.150 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2054 ms
+00:45:29.150 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:45:29.151 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Binary Search
+00:46:35.275 [main] INFO  com.algobench.pro.util.config.ConfigurationManager - Configuration loaded successfully
+00:46:35.278 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:46:35.279 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:46:35.279 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:46:35.279 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:46:35.280 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:46:35.280 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:46:35.280 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Quick Sort
+00:46:35.281 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 1000
+00:46:35.738 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:35.741 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:36.095 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:36.100 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:36.335 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:36.339 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:36.813 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:36.814 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:37.053 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:37.054 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:37.292 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:37.293 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:37.529 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:37.531 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:37.768 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:46:37.768 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:37.769 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2487 ms
+00:46:37.769 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:46:37.769 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 5000
+00:46:38.118 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:38.121 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:38.355 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:38.358 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:38.594 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:38.597 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:39.065 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:39.067 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:39.302 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:39.304 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:39.534 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:39.536 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:39.773 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:39.776 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:40.178 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:46:40.181 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:40.182 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2413 ms
+00:46:40.183 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:46:40.183 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 10000
+00:46:40.424 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:40.430 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:40.684 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:40.691 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:40.945 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:40.951 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:41.444 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:41.453 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:41.719 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:41.722 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:41.973 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:41.979 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:42.222 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:42.229 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:42.477 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:46:42.483 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:42.484 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2301 ms
+00:46:42.485 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:46:42.485 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 50000
+00:46:42.734 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:42.765 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:43.002 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:43.031 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:43.280 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:43.310 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:43.818 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:43.847 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:44.222 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:44.248 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:44.499 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:44.524 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:44.763 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:44.794 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:45.044 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:46:45.068 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:46:45.069 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2583 ms
+00:46:45.069 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:46:45.069 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Quick Sort
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Binary Search
+00:46:45.097 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 1000
+00:46:45.439 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 595 in array of length: 1000
+00:46:45.439 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 595
+00:46:45.683 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 264 in array of length: 1000
+00:46:45.685 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 264
+00:46:45.927 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 848 in array of length: 1000
+00:46:45.927 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 848
+00:46:46.309 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 75 in array of length: 1000
+00:46:46.310 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 75
+00:46:46.559 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 692 in array of length: 1000
+00:46:46.560 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 692
+00:46:46.816 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 248 in array of length: 1000
+00:46:46.816 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 248
+00:46:47.063 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 460 in array of length: 1000
+00:46:47.063 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 460
+00:46:47.330 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 254 in array of length: 1000
+00:46:47.330 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 254
+00:46:47.331 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2233 ms
+00:46:47.332 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:46:47.332 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 5000
+00:46:47.580 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 896 in array of length: 5000
+00:46:47.580 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 896
+00:46:47.819 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4318 in array of length: 5000
+00:46:47.819 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4318
+00:46:48.070 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3257 in array of length: 5000
+00:46:48.070 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3257
+00:46:48.540 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2986 in array of length: 5000
+00:46:48.541 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2986
+00:46:48.851 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2530 in array of length: 5000
+00:46:48.851 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2530
+00:46:49.095 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2687 in array of length: 5000
+00:46:49.096 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2687
+00:46:49.354 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1703 in array of length: 5000
+00:46:49.355 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1703
+00:46:49.618 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4750 in array of length: 5000
+00:46:49.618 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4750
+00:46:49.620 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2288 ms
+00:46:49.620 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:46:49.620 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 10000
+00:46:49.871 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4354 in array of length: 10000
+00:46:49.872 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4354
+00:46:50.130 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4867 in array of length: 10000
+00:46:50.131 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4867
+00:46:50.382 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5277 in array of length: 10000
+00:46:50.382 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 5277
+00:46:50.884 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3226 in array of length: 10000
+00:46:50.884 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3226
+00:46:51.131 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5371 in array of length: 10000
+00:46:51.131 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 5371
+00:46:51.383 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7009 in array of length: 10000
+00:46:51.383 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7009
+00:46:51.643 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1044 in array of length: 10000
+00:46:51.644 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1044
+00:46:51.884 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5873 in array of length: 10000
+00:46:51.885 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 5873
+00:46:51.886 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2266 ms
+00:46:51.886 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:46:51.886 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 50000
+00:46:52.124 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 26817 in array of length: 50000
+00:46:52.127 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 26817
+00:46:52.504 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 22879 in array of length: 50000
+00:46:52.505 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 22879
+00:46:52.757 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 40452 in array of length: 50000
+00:46:52.758 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 40452
+00:46:53.281 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 6695 in array of length: 50000
+00:46:53.282 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6695
+00:46:53.549 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 30329 in array of length: 50000
+00:46:53.549 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 30329
+00:46:53.804 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 36290 in array of length: 50000
+00:46:53.806 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 36290
+00:46:54.073 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8045 in array of length: 50000
+00:46:54.073 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8045
+00:46:54.337 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 47156 in array of length: 50000
+00:46:54.338 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 47156
+00:46:54.339 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2452 ms
+00:46:54.339 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:46:54.339 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Binary Search
+00:51:07.583 [main] INFO  com.algobench.pro.util.config.ConfigurationManager - Configuration loaded successfully
+00:51:07.586 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:51:07.587 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:51:07.587 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:51:07.587 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:51:07.587 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:51:07.588 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:51:07.588 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Quick Sort
+00:51:07.589 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 1000
+00:51:08.061 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:08.067 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:08.438 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:08.440 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:08.687 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:08.690 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:09.179 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:09.183 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:09.420 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:09.422 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:09.660 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:09.662 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:09.908 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:09.910 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:10.155 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:51:10.155 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:10.156 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2566 ms
+00:51:10.156 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:51:10.157 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 5000
+00:51:10.523 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:10.526 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:10.764 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:10.768 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:11.139 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:11.142 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:11.758 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:11.761 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:12.012 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:12.014 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:12.266 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:12.267 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:12.492 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:12.494 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:12.731 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:51:12.734 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:12.735 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2578 ms
+00:51:12.735 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:51:12.735 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 10000
+00:51:12.974 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:12.979 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:13.215 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:13.217 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:13.568 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:13.572 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:14.045 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:14.060 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:14.295 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:14.300 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:14.535 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:14.539 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:14.774 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:14.777 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:15.017 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:51:15.028 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:15.028 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2293 ms
+00:51:15.028 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:51:15.028 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 50000
+00:51:15.264 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:15.277 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:15.513 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:15.529 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:15.766 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:15.783 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:16.251 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:16.271 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:16.629 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:16.649 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:16.886 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:16.902 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:17.250 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:17.262 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:17.610 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:51:17.628 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:51:17.628 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2599 ms
+00:51:17.628 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:51:17.628 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Quick Sort
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Binary Search
+00:51:17.646 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 1000
+00:51:17.987 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 287 in array of length: 1000
+00:51:17.987 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 287
+00:51:18.220 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 223 in array of length: 1000
+00:51:18.221 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 223
+00:51:18.339 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 951 in array of length: 1000
+00:51:18.339 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 951
+00:51:18.810 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 868 in array of length: 1000
+00:51:18.810 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 868
+00:51:19.048 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 846 in array of length: 1000
+00:51:19.048 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 846
+00:51:19.285 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 819 in array of length: 1000
+00:51:19.285 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 819
+00:51:19.405 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 473 in array of length: 1000
+00:51:19.406 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 473
+00:51:19.642 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 337 in array of length: 1000
+00:51:19.643 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 337
+00:51:19.644 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 1997 ms
+00:51:19.644 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:51:19.644 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 5000
+00:51:19.890 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2473 in array of length: 5000
+00:51:19.891 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2473
+00:51:20.137 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 450 in array of length: 5000
+00:51:20.138 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 450
+00:51:20.384 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2917 in array of length: 5000
+00:51:20.385 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2917
+00:51:20.876 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4033 in array of length: 5000
+00:51:20.876 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4033
+00:51:21.114 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2733 in array of length: 5000
+00:51:21.115 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2733
+00:51:21.356 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3571 in array of length: 5000
+00:51:21.357 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3571
+00:51:21.481 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3221 in array of length: 5000
+00:51:21.482 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3221
+00:51:21.724 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2059 in array of length: 5000
+00:51:21.726 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2059
+00:51:21.727 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2083 ms
+00:51:21.727 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:51:21.727 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 10000
+00:51:21.975 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2536 in array of length: 10000
+00:51:21.976 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2536
+00:51:22.219 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8392 in array of length: 10000
+00:51:22.220 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8392
+00:51:22.458 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8950 in array of length: 10000
+00:51:22.459 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8950
+00:51:22.937 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5409 in array of length: 10000
+00:51:22.937 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 5409
+00:51:23.175 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 6887 in array of length: 10000
+00:51:23.176 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6887
+00:51:23.413 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7188 in array of length: 10000
+00:51:23.414 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7188
+00:51:23.769 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 858 in array of length: 10000
+00:51:23.770 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 858
+00:51:24.008 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8740 in array of length: 10000
+00:51:24.008 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8740
+00:51:24.009 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2281 ms
+00:51:24.009 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:51:24.009 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 50000
+00:51:24.247 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 16300 in array of length: 50000
+00:51:24.247 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 16300
+00:51:24.495 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 12203 in array of length: 50000
+00:51:24.495 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 12203
+00:51:24.743 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 35091 in array of length: 50000
+00:51:24.744 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 35091
+00:51:25.237 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 41581 in array of length: 50000
+00:51:25.238 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 41581
+00:51:25.480 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2792 in array of length: 50000
+00:51:25.480 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2792
+00:51:25.719 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 33179 in array of length: 50000
+00:51:25.720 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 33179
+00:51:25.965 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 38875 in array of length: 50000
+00:51:25.966 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 38875
+00:51:26.240 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 36130 in array of length: 50000
+00:51:26.240 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 36130
+00:51:26.241 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2231 ms
+00:51:26.241 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:51:26.242 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Binary Search
