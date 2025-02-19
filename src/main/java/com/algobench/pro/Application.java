@@ -5,6 +5,7 @@ import com.algobench.pro.ui.menu.MenuItem;
 import com.algobench.pro.ui.menu.SearchingMenu;
 import com.algobench.pro.ui.menu.SortingMenu;
 import com.algobench.pro.ui.menu.BenchmarkMenu;
+import com.algobench.pro.ui.menu.GraphMenu;
 import com.algobench.pro.util.config.ConfigurationManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -43,18 +44,8 @@ public class Application {
         // Add searching algorithms menu
         mainMenu.addMenuItem(2, new SearchingMenu());
 
-        // Add graph algorithms menu item
-        mainMenu.addMenuItem(3, new MenuItem() {
-            @Override
-            public void execute() {
-                System.out.println("Graph algorithms - Coming soon!");
-            }
-
-            @Override
-            public String getDescription() {
-                return "Graph Algorithms";
-            }
-        });
+        // Add graph algorithms menu
+        mainMenu.addMenuItem(3, new GraphMenu());
 
         // Add benchmark menu
         mainMenu.addMenuItem(4, new BenchmarkMenu());

@@ -3,6 +3,7 @@ package com.algobench.pro.benchmark.runner;
 import com.algobench.pro.algorithm.searching.SearchAlgorithm;
 import com.algobench.pro.algorithm.sorting.SortingAlgorithm;
 import com.algobench.pro.benchmark.BenchmarkConfig;
+import com.algobench.pro.visualization.progress.ProgressBar;
 import com.algobench.pro.benchmark.metrics.MemoryTracker;
 import com.algobench.pro.benchmark.metrics.PerformanceTimer;
 import com.algobench.pro.benchmark.results.BenchmarkResult;
@@ -74,11 +75,17 @@ public class BenchmarkRunner {
 
     private void runSortingBenchmark(SortingAlgorithm<Integer> algorithm, int size, BenchmarkResult result) {
         logger.info("Running sorting benchmark for size: {}", size);
+        System.out.printf("\nRunning benchmark for size: %d%n", size);
+        
+        // Create progress bar for all runs
+        int totalRuns = config.getWarmupRuns() + config.getMeasurementRuns();
+        ProgressBar progress = new ProgressBar(totalRuns, "Progress");
         
         // Run warmup phase
         for (int i = 0; i < config.getWarmupRuns(); i++) {
             Integer[] array = generateRandomArray(size);
             runSingleSortTest(algorithm, array, result, size);
+            progress.increment();
         }
 
         // Run measurement phase
@@ -86,14 +93,21 @@ public class BenchmarkRunner {
         for (int i = 0; i < config.getMeasurementRuns(); i++) {
             Integer[] array = generateRandomArray(size);
             runSingleSortTest(algorithm, array, result, size);
+            progress.increment();
         }
         result.setMemoryUsage(size, memoryTracker.getMemoryDelta());
 
+        progress.complete();
         logger.info("Completed benchmark for size: {}", size);
     }
 
     private void runSearchingBenchmark(SearchAlgorithm<Integer> algorithm, int size, BenchmarkResult result) {
         logger.info("Running searching benchmark for size: {}", size);
+        System.out.printf("\nRunning benchmark for size: %d%n", size);
+        
+        // Create progress bar for all runs
+        int totalRuns = config.getWarmupRuns() + config.getMeasurementRuns();
+        ProgressBar progress = new ProgressBar(totalRuns, "Progress");
         
         // Create sorted array for binary search
         Integer[] array = new Integer[size];
@@ -105,6 +119,7 @@ public class BenchmarkRunner {
         for (int i = 0; i < config.getWarmupRuns(); i++) {
             int target = random.nextInt(size);
             runSingleSearchTest(algorithm, array, target, result, size);
+            progress.increment();
         }
 
         // Run measurement phase
@@ -112,9 +127,11 @@ public class BenchmarkRunner {
         for (int i = 0; i < config.getMeasurementRuns(); i++) {
             int target = random.nextInt(size);
             runSingleSearchTest(algorithm, array, target, result, size);
+            progress.increment();
         }
         result.setMemoryUsage(size, memoryTracker.getMemoryDelta());
 
+        progress.complete();
         logger.info("Completed benchmark for size: {}", size);
     }
 

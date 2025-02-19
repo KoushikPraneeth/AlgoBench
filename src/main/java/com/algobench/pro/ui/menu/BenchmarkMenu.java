@@ -6,6 +6,7 @@ import com.algobench.pro.algorithm.sorting.QuickSort;
 import com.algobench.pro.algorithm.sorting.SortingAlgorithm;
 import com.algobench.pro.benchmark.BenchmarkConfig;
 import com.algobench.pro.benchmark.results.BenchmarkResult;
+import com.algobench.pro.benchmark.results.PerformanceReport;
 import com.algobench.pro.benchmark.runner.BenchmarkRunner;
 import com.algobench.pro.ui.console.InputHandler;
 import org.apache.logging.log4j.LogManager;
@@ -63,8 +64,35 @@ public class BenchmarkMenu implements MenuItem {
             SortingAlgorithm<Integer> quickSort = new QuickSort<>();
             BenchmarkResult result = benchmarkRunner.benchmarkSorting(quickSort);
             
-            System.out.println("\nBenchmark Results:");
-            System.out.println(result.generateReport());
+                System.out.println("\nBenchmark Complete!");
+                
+                PerformanceReport report = new PerformanceReport(result);
+                
+                while (true) {
+                    System.out.println("\n=== Report Format ===");
+                    System.out.println("1. Text Report (Console)");
+                    System.out.println("2. CSV Format");
+                    System.out.println("3. Markdown Format");
+                    System.out.println("0. Back");
+
+                    int choice = inputHandler.getIntInRange("\nSelect format: ", 0, 3);
+                    
+                    switch (choice) {
+                        case 0:
+                            return;
+                        case 1:
+                            System.out.println("\n" + report.generateTextReport());
+                            break;
+                        case 2:
+                            System.out.println("\nCSV Report:");
+                            System.out.println(report.generateCSV());
+                            break;
+                        case 3:
+                            System.out.println("\nMarkdown Report:");
+                            System.out.println(report.generateMarkdown());
+                            break;
+                    }
+                }
             
         } catch (Exception e) {
             logger.error("Error during sorting benchmark", e);
@@ -80,8 +108,35 @@ public class BenchmarkMenu implements MenuItem {
             SearchAlgorithm<Integer> binarySearch = new BinarySearch<>();
             BenchmarkResult result = benchmarkRunner.benchmarkSearching(binarySearch);
             
-            System.out.println("\nBenchmark Results:");
-            System.out.println(result.generateReport());
+            System.out.println("\nBenchmark Complete!");
+                
+            PerformanceReport report = new PerformanceReport(result);
+            
+            while (true) {
+                System.out.println("\n=== Report Format ===");
+                System.out.println("1. Text Report (Console)");
+                System.out.println("2. CSV Format");
+                System.out.println("3. Markdown Format");
+                System.out.println("0. Back");
+
+                int choice = inputHandler.getIntInRange("\nSelect format: ", 0, 3);
+                
+                switch (choice) {
+                    case 0:
+                        return;
+                    case 1:
+                        System.out.println("\n" + report.generateTextReport());
+                        break;
+                    case 2:
+                        System.out.println("\nCSV Report:");
+                        System.out.println(report.generateCSV());
+                        break;
+                    case 3:
+                        System.out.println("\nMarkdown Report:");
+                        System.out.println(report.generateMarkdown());
+                        break;
+                }
+            }
             
         } catch (Exception e) {
             logger.error("Error during searching benchmark", e);
