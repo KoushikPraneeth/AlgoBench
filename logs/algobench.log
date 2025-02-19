@@ -11,3 +11,29 @@
 22:58:39.129 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
 22:58:39.130 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 7
 22:58:39.130 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+23:05:33.506 [main] ERROR com.algobench.pro.algorithm.searching.BinarySearch - Search target is null
+23:05:33.514 [main] ERROR com.algobench.pro.algorithm.searching.SearchAlgorithm - Input array is null
+23:05:33.518 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5 in array of length: 0
+23:05:33.518 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target not found in array
+23:05:33.520 [main] ERROR com.algobench.pro.algorithm.searching.BinarySearch - Input array is not sorted at index: 1
+23:05:33.521 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5 in array of length: 1
+23:05:33.521 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 0
+23:05:33.522 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3 in array of length: 1
+23:05:33.522 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target not found in array
+23:05:33.523 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7 in array of length: 9
+23:05:33.523 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target not found in array
+23:05:33.524 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7 in array of length: 10
+23:05:33.525 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6
+23:05:33.529 [main] ERROR com.algobench.pro.algorithm.sorting.SortingAlgorithm - Input array is null
+23:05:33.530 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 0
+23:05:33.530 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+23:05:33.532 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 8
+23:05:33.532 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+23:05:33.533 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5
+23:05:33.534 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+23:05:33.536 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5
+23:05:33.536 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+23:05:33.537 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1
+23:05:33.537 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+23:05:33.539 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 7
+23:05:33.539 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
