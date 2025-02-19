@@ -37,3 +37,400 @@
 23:05:33.537 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
 23:05:33.539 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 7
 23:05:33.539 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:03:04.747 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Starting AlgoBench Pro
+00:03:04.750 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.util.config.ConfigurationManager - Configuration loaded successfully
+00:03:04.750 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Configuration initialized
+00:03:04.758 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:03:04.759 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:03:04.759 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:03:04.759 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:03:04.759 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:03:04.759 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:03:04.760 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Menu items initialized
+00:03:15.430 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.ui.menu.GraphMenu - Entering graph menu
+00:03:17.919 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.ui.menu.GraphMenu - Starting Dijkstra's algorithm demo
+00:06:32.613 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Starting AlgoBench Pro
+00:06:32.615 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.util.config.ConfigurationManager - Configuration loaded successfully
+00:06:32.615 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Configuration initialized
+00:06:32.622 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:06:32.623 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:06:32.623 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:06:32.623 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:06:32.623 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:06:32.623 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:06:32.624 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Menu items initialized
+00:06:35.546 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.ui.menu.BenchmarkMenu - Entering benchmark menu
+00:06:39.512 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.ui.menu.BenchmarkMenu - Starting searching algorithms benchmark
+00:06:39.516 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Binary Search
+00:06:39.518 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 1000
+00:06:40.072 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 975 in array of length: 1000
+00:06:40.073 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 975
+00:06:40.487 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 616 in array of length: 1000
+00:06:40.488 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 616
+00:06:40.767 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 130 in array of length: 1000
+00:06:40.768 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 130
+00:06:41.326 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 278 in array of length: 1000
+00:06:41.327 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 278
+00:06:41.603 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 818 in array of length: 1000
+00:06:41.603 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 818
+00:06:41.884 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 255 in array of length: 1000
+00:06:41.885 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 255
+00:06:42.163 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 206 in array of length: 1000
+00:06:42.164 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 206
+00:06:42.440 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 118 in array of length: 1000
+00:06:42.441 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 118
+00:06:42.443 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2923 ms
+00:06:42.443 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:06:42.443 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 5000
+00:06:42.717 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3214 in array of length: 5000
+00:06:42.718 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3214
+00:06:42.980 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2368 in array of length: 5000
+00:06:42.980 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2368
+00:06:43.236 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1318 in array of length: 5000
+00:06:43.237 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1318
+00:06:43.753 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1176 in array of length: 5000
+00:06:43.754 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1176
+00:06:44.011 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1337 in array of length: 5000
+00:06:44.011 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1337
+00:06:44.268 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 317 in array of length: 5000
+00:06:44.268 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 317
+00:06:44.525 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3159 in array of length: 5000
+00:06:44.526 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3159
+00:06:44.786 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 966 in array of length: 5000
+00:06:44.786 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 966
+00:06:44.786 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2342 ms
+00:06:44.787 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:06:44.787 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 10000
+00:06:45.045 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1056 in array of length: 10000
+00:06:45.047 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1056
+00:06:45.323 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1721 in array of length: 10000
+00:06:45.324 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1721
+00:06:45.601 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 9675 in array of length: 10000
+00:06:45.601 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 9675
+00:06:46.148 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8785 in array of length: 10000
+00:06:46.149 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8785
+00:06:46.412 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1573 in array of length: 10000
+00:06:46.413 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1573
+00:06:46.688 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 6544 in array of length: 10000
+00:06:46.689 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6544
+00:06:46.973 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7748 in array of length: 10000
+00:06:46.974 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7748
+00:06:47.229 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 9306 in array of length: 10000
+00:06:47.229 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 9306
+00:06:47.231 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2443 ms
+00:06:47.231 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:06:47.233 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 50000
+00:06:47.498 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 29969 in array of length: 50000
+00:06:47.499 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 29969
+00:06:47.777 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 40448 in array of length: 50000
+00:06:47.778 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 40448
+00:06:48.060 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 36364 in array of length: 50000
+00:06:48.061 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 36364
+00:06:48.619 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 32255 in array of length: 50000
+00:06:48.620 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 32255
+00:06:48.902 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 25727 in array of length: 50000
+00:06:48.903 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 25727
+00:06:49.181 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1154 in array of length: 50000
+00:06:49.182 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1154
+00:06:49.460 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7977 in array of length: 50000
+00:06:49.460 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7977
+00:06:49.739 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 49213 in array of length: 50000
+00:06:49.740 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 49213
+00:06:49.741 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2506 ms
+00:06:49.741 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:06:49.741 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Binary Search
+00:06:59.518 [com.algobench.pro.Application.main()] ERROR com.algobench.pro.ui.menu.BenchmarkMenu - Error during searching benchmark
+java.util.IllegalFormatConversionException: f != java.lang.Long
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4710) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:3261) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:3209) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2801) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2738) ~[?:?]
+	at java.lang.String.format(String.java:4481) ~[?:?]
+	at com.algobench.pro.benchmark.results.PerformanceReport.generateTextReport(PerformanceReport.java:49) ~[classes/:?]
+	at com.algobench.pro.ui.menu.BenchmarkMenu.benchmarkSearchingAlgorithms(BenchmarkMenu.java:128) ~[classes/:?]
+	at com.algobench.pro.ui.menu.BenchmarkMenu.execute(BenchmarkMenu.java:48) ~[classes/:?]
+	at com.algobench.pro.ui.menu.MainMenu.handleUserInput(MainMenu.java:73) ~[classes/:?]
+	at com.algobench.pro.ui.menu.MainMenu.run(MainMenu.java:54) ~[classes/:?]
+	at com.algobench.pro.Application.main(Application.java:32) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+00:09:45.495 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Starting AlgoBench Pro
+00:09:45.497 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.util.config.ConfigurationManager - Configuration loaded successfully
+00:09:45.497 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Configuration initialized
+00:09:45.504 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:09:45.505 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:09:45.505 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:09:45.505 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:09:45.506 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:09:45.506 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:09:45.506 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.Application - Menu items initialized
+00:09:48.356 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.ui.menu.BenchmarkMenu - Entering benchmark menu
+00:09:51.929 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.ui.menu.BenchmarkMenu - Starting searching algorithms benchmark
+00:09:51.932 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Binary Search
+00:09:51.934 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 1000
+00:09:52.491 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 976 in array of length: 1000
+00:09:52.492 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 976
+00:09:52.912 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 662 in array of length: 1000
+00:09:52.913 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 662
+00:09:53.198 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 164 in array of length: 1000
+00:09:53.199 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 164
+00:09:53.767 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 818 in array of length: 1000
+00:09:53.768 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 818
+00:09:54.052 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 925 in array of length: 1000
+00:09:54.053 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 925
+00:09:54.331 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 836 in array of length: 1000
+00:09:54.332 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 836
+00:09:54.588 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 688 in array of length: 1000
+00:09:54.588 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 688
+00:09:54.845 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 331 in array of length: 1000
+00:09:54.846 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 331
+00:09:54.847 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2912 ms
+00:09:54.847 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:09:54.848 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 5000
+00:09:55.107 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1012 in array of length: 5000
+00:09:55.108 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1012
+00:09:55.365 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2440 in array of length: 5000
+00:09:55.365 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2440
+00:09:55.625 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2672 in array of length: 5000
+00:09:55.625 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2672
+00:09:56.141 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3505 in array of length: 5000
+00:09:56.145 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3505
+00:09:56.399 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4928 in array of length: 5000
+00:09:56.399 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4928
+00:09:56.663 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4209 in array of length: 5000
+00:09:56.664 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4209
+00:09:56.942 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 194 in array of length: 5000
+00:09:56.943 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 194
+00:09:57.220 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4197 in array of length: 5000
+00:09:57.221 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4197
+00:09:57.222 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2374 ms
+00:09:57.222 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:09:57.223 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 10000
+00:09:57.502 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 9501 in array of length: 10000
+00:09:57.502 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 9501
+00:09:57.776 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3491 in array of length: 10000
+00:09:57.776 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3491
+00:09:58.041 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5205 in array of length: 10000
+00:09:58.041 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 5205
+00:09:58.595 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 6459 in array of length: 10000
+00:09:58.596 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6459
+00:09:58.871 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1526 in array of length: 10000
+00:09:58.872 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1526
+00:09:59.144 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7502 in array of length: 10000
+00:09:59.144 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7502
+00:09:59.423 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3032 in array of length: 10000
+00:09:59.424 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3032
+00:09:59.700 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4847 in array of length: 10000
+00:09:59.701 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4847
+00:09:59.702 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2479 ms
+00:09:59.702 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:09:59.702 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 50000
+00:09:59.980 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 24208 in array of length: 50000
+00:09:59.981 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 24208
+00:10:00.263 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 15299 in array of length: 50000
+00:10:00.264 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 15299
+00:10:00.545 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 20975 in array of length: 50000
+00:10:00.546 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 20975
+00:10:01.104 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7748 in array of length: 50000
+00:10:01.105 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7748
+00:10:01.371 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 20859 in array of length: 50000
+00:10:01.372 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 20859
+00:10:01.645 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 22251 in array of length: 50000
+00:10:01.646 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 22251
+00:10:01.928 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 17831 in array of length: 50000
+00:10:01.929 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 17831
+00:10:02.208 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 29400 in array of length: 50000
+00:10:02.209 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 29400
+00:10:02.210 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2508 ms
+00:10:02.210 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:10:02.210 [com.algobench.pro.Application.main()] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Binary Search
+00:10:05.729 [com.algobench.pro.Application.main()] ERROR com.algobench.pro.ui.menu.BenchmarkMenu - Error during searching benchmark
+java.util.IllegalFormatConversionException: f != java.lang.Long
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4710) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:3261) ~[?:?]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:3209) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2801) ~[?:?]
+	at java.util.Formatter.format(Formatter.java:2738) ~[?:?]
+	at java.lang.String.format(String.java:4481) ~[?:?]
+	at com.algobench.pro.benchmark.results.PerformanceReport.generateTextReport(PerformanceReport.java:49) ~[classes/:?]
+	at com.algobench.pro.ui.menu.BenchmarkMenu.benchmarkSearchingAlgorithms(BenchmarkMenu.java:128) ~[classes/:?]
+	at com.algobench.pro.ui.menu.BenchmarkMenu.execute(BenchmarkMenu.java:48) ~[classes/:?]
+	at com.algobench.pro.ui.menu.MainMenu.handleUserInput(MainMenu.java:73) ~[classes/:?]
+	at com.algobench.pro.ui.menu.MainMenu.run(MainMenu.java:54) ~[classes/:?]
+	at com.algobench.pro.Application.main(Application.java:32) ~[classes/:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:375) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:364) ~[?:?]
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:286) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+00:29:43.236 [main] INFO  com.algobench.pro.util.config.ConfigurationManager - Configuration loaded successfully
+00:29:43.239 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:29:43.241 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:29:43.241 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:29:43.241 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:29:43.241 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:29:43.241 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:29:43.243 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Quick Sort
+00:29:43.243 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 1000
+00:29:43.711 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:43.715 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:44.069 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:44.073 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:44.307 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:44.310 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:44.664 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:44.666 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:44.898 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:44.899 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:45.135 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:45.136 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:45.373 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:45.374 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:45.611 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 1000
+00:29:45.612 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:45.613 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2369 ms
+00:29:45.614 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:29:45.614 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 5000
+00:29:45.992 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:45.994 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:46.239 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:46.242 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:46.606 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:46.608 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:47.205 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:47.208 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:47.444 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:47.446 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:47.683 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:47.685 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:48.041 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:48.043 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:48.282 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 5000
+00:29:48.285 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:48.287 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2673 ms
+00:29:48.289 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:29:48.290 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 10000
+00:29:48.524 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:48.529 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:48.758 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:48.761 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:48.995 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:49.001 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:49.465 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:49.469 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:49.706 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:49.709 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:49.946 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:49.951 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:50.190 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:50.193 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:50.435 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 10000
+00:29:50.438 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:50.439 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2149 ms
+00:29:50.439 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:29:50.439 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running sorting benchmark for size: 50000
+00:29:50.678 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:50.696 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:50.935 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:50.951 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:51.200 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:51.224 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:51.711 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:51.730 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:51.968 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:51.981 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:52.218 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:52.236 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:52.588 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:52.606 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:52.851 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - Starting QuickSort on array of length: 50000
+00:29:52.867 [main] INFO  com.algobench.pro.algorithm.sorting.QuickSort - QuickSort completed
+00:29:52.868 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2427 ms
+00:29:52.868 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:29:52.868 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Quick Sort
+00:29:52.893 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Benchmark configuration initialized:
+00:29:52.893 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Warmup runs: 3
+00:29:52.893 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Measurement runs: 5
+00:29:52.893 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Input sizes: [1000, 5000, 10000, 50000]
+00:29:52.893 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - GC before benchmark: true
+00:29:52.893 [main] INFO  com.algobench.pro.benchmark.BenchmarkConfig - Timeout: 30 seconds
+00:29:52.893 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Starting benchmark for Binary Search
+00:29:52.894 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 1000
+00:29:53.231 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 551 in array of length: 1000
+00:29:53.231 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 551
+00:29:53.471 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 958 in array of length: 1000
+00:29:53.471 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 958
+00:29:53.705 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 101 in array of length: 1000
+00:29:53.706 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 101
+00:29:54.062 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 301 in array of length: 1000
+00:29:54.063 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 301
+00:29:54.297 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 896 in array of length: 1000
+00:29:54.298 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 896
+00:29:54.537 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 724 in array of length: 1000
+00:29:54.538 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 724
+00:29:54.778 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 162 in array of length: 1000
+00:29:54.779 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 162
+00:29:55.015 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 31 in array of length: 1000
+00:29:55.016 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 31
+00:29:55.016 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2122 ms
+00:29:55.016 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 1000
+00:29:55.016 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 5000
+00:29:55.257 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 3485 in array of length: 5000
+00:29:55.258 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 3485
+00:29:55.614 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1586 in array of length: 5000
+00:29:55.615 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1586
+00:29:55.859 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 2507 in array of length: 5000
+00:29:55.860 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 2507
+00:29:56.335 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 796 in array of length: 5000
+00:29:56.336 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 796
+00:29:56.692 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4470 in array of length: 5000
+00:29:56.693 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4470
+00:29:56.933 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 625 in array of length: 5000
+00:29:56.934 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 625
+00:29:57.171 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4177 in array of length: 5000
+00:29:57.171 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4177
+00:29:57.410 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 914 in array of length: 5000
+00:29:57.411 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 914
+00:29:57.411 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2394 ms
+00:29:57.411 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 5000
+00:29:57.411 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 10000
+00:29:57.766 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 9082 in array of length: 10000
+00:29:57.767 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 9082
+00:29:58.006 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7081 in array of length: 10000
+00:29:58.007 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7081
+00:29:58.242 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 8919 in array of length: 10000
+00:29:58.243 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 8919
+00:29:58.601 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1101 in array of length: 10000
+00:29:58.601 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1101
+00:29:58.842 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 6953 in array of length: 10000
+00:29:58.842 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 6953
+00:29:59.083 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7810 in array of length: 10000
+00:29:59.083 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7810
+00:29:59.320 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 9595 in array of length: 10000
+00:29:59.321 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 9595
+00:29:59.556 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 4112 in array of length: 10000
+00:29:59.557 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 4112
+00:29:59.558 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2147 ms
+00:29:59.558 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 10000
+00:29:59.558 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Running searching benchmark for size: 50000
+00:29:59.905 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 33160 in array of length: 50000
+00:29:59.906 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 33160
+00:30:00.145 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 33866 in array of length: 50000
+00:30:00.146 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 33866
+00:30:00.384 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 12206 in array of length: 50000
+00:30:00.384 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 12206
+00:30:00.743 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 7022 in array of length: 50000
+00:30:00.744 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 7022
+00:30:00.984 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 9721 in array of length: 50000
+00:30:00.984 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 9721
+00:30:01.224 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 5535 in array of length: 50000
+00:30:01.225 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 5535
+00:30:01.462 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 15298 in array of length: 50000
+00:30:01.463 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 15298
+00:30:01.701 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Starting binary search for target: 1977 in array of length: 50000
+00:30:01.702 [main] INFO  com.algobench.pro.algorithm.searching.BinarySearch - Target found at index: 1977
+00:30:01.702 [main] INFO  com.algobench.pro.visualization.progress.ProgressBar - Progress completed in 2144 ms
+00:30:01.702 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Completed benchmark for size: 50000
+00:30:01.703 [main] INFO  com.algobench.pro.benchmark.runner.BenchmarkRunner - Benchmark completed for Binary Search

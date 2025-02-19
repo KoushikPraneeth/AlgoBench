@@ -11,21 +11,37 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Generic Graph data structure implementation.
- * @param <T> The type of vertices in the graph
+ * {@code Graph} class provides a generic implementation of a graph data structure.
+ * <p>
+ * It supports vertices of any type {@code T} and weighted edges. The graph is represented using an adjacency list,
+ * where each vertex is associated with a list of its outgoing edges.
+ *
+ * <p><b>Type Parameter:</b></p>
+ * <ul>
+ *     <li>{@code <T>} - The type of vertices in this graph.</li>
+ * </ul>
+ *
+ * @param <T> the type of vertices, can be any object
+ * @version 1.0
  */
 public class Graph<T> {
     private static final Logger logger = LogManager.getLogger(Graph.class);
     private final Map<T, List<Edge<T>>> adjacencyList;
 
+    /**
+     * Constructs an empty graph.
+     * Initializes the adjacency list to store vertices and their edges.
+     */
     public Graph() {
         this.adjacencyList = new HashMap<>();
         logger.debug("Graph initialized");
     }
 
     /**
-     * Adds a vertex to the graph.
-     * @param vertex The vertex to add
+     * Adds a vertex to the graph if it does not already exist.
+     *
+     * @param vertex The vertex to be added.
+     * @throws IllegalArgumentException if the vertex is null.
      */
     public void addVertex(T vertex) {
         if (vertex == null) {
@@ -37,10 +53,13 @@ public class Graph<T> {
     }
 
     /**
-     * Adds an edge to the graph.
-     * @param source The source vertex
-     * @param destination The destination vertex
-     * @param weight The weight of the edge
+     * Adds a weighted, directed edge to the graph.
+     * Creates vertices for source and destination if they do not already exist.
+     *
+     * @param source      The starting vertex of the edge.
+     * @param destination The ending vertex of the edge.
+     * @param weight      The weight of the edge.
+     * @throws IllegalArgumentException if source or destination vertices are null.
      */
     public void addEdge(T source, T destination, double weight) {
         if (source == null || destination == null) {
@@ -60,44 +79,49 @@ public class Graph<T> {
     }
 
     /**
-     * Gets the adjacency list of the graph.
-     * @return Map representing the adjacency list
+     * Returns the adjacency list representing the graph.
+     *
+     * @return A map where each vertex is mapped to a list of its outgoing edges.
      */
     public Map<T, List<Edge<T>>> getAdjacencyList() {
         return adjacencyList;
     }
 
     /**
-     * Gets the vertices of the graph.
-     * @return Set of vertices
+     * Returns a set of all vertices in the graph.
+     *
+     * @return A Set containing all vertices in the graph.
      */
     public Set<T> getVertices() {
         return adjacencyList.keySet();
     }
 
     /**
-     * Gets the edges originating from a vertex.
-     * @param vertex The source vertex
-     * @return List of edges from the vertex
+     * Retrieves all edges originating from a specified vertex.
+     *
+     * @param vertex The vertex for which to retrieve edges.
+     * @return A list of edges starting from the specified vertex. Returns an empty list if the vertex has no outgoing edges or does not exist.
      */
     public List<Edge<T>> getEdges(T vertex) {
         return adjacencyList.getOrDefault(vertex, new ArrayList<>());
     }
 
     /**
-     * Checks if the graph contains a vertex.
-     * @param vertex The vertex to check
-     * @return true if the vertex exists, false otherwise
+     * Checks if the graph contains a specific vertex.
+     *
+     * @param vertex The vertex to check for existence in the graph.
+     * @return {@code true} if the vertex is in the graph, {@code false} otherwise.
      */
     public boolean hasVertex(T vertex) {
         return adjacencyList.containsKey(vertex);
     }
 
     /**
-     * Checks if there is an edge between two vertices.
-     * @param source The source vertex
-     * @param destination The destination vertex
-     * @return true if an edge exists, false otherwise
+     * Checks if an edge exists between a source and a destination vertex.
+     *
+     * @param source      The source vertex.
+     * @param destination The destination vertex.
+     * @return {@code true} if an edge exists from the source to the destination, {@code false} otherwise.
      */
     public boolean hasEdge(T source, T destination) {
         if (!adjacencyList.containsKey(source)) {
@@ -108,16 +132,18 @@ public class Graph<T> {
     }
 
     /**
-     * Returns the number of vertices in the graph.
-     * @return Vertex count
+     * Returns the total number of vertices in the graph.
+     *
+     * @return The number of vertices in the graph.
      */
     public int getVertexCount() {
         return adjacencyList.size();
     }
 
     /**
-     * Returns the number of edges in the graph.
-     * @return Edge count
+     * Returns the total number of edges in the graph.
+     *
+     * @return The number of edges in the graph.
      */
     public int getEdgeCount() {
         return adjacencyList.values().stream()
@@ -126,7 +152,7 @@ public class Graph<T> {
     }
 
     /**
-     * Clears all vertices and edges from the graph.
+     * Removes all vertices and edges from the graph, effectively clearing it.
      */
     public void clear() {
         adjacencyList.clear();

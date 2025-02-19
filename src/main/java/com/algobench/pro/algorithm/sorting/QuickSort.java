@@ -4,8 +4,17 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * Implementation of the QuickSort algorithm.
- * @param <T> The type of elements to be sorted
+ * Implements the Quick Sort algorithm for sorting arrays.
+ * <p>
+ * QuickSort is a divide-and-conquer algorithm that works by selecting a 'pivot' element
+ * from the array and partitioning the other elements into two sub-arrays, according to whether they are
+ * less than or greater than the pivot. The sub-arrays are then sorted recursively.
+ * <p>
+ * This implementation includes logging at various stages for debugging and performance analysis.
+ *
+ * @param <T> the type of elements to be sorted, must implement Comparable
+ * @version 1.0
+ * @see SortingAlgorithm
  */
 public class QuickSort<T extends Comparable<T>> implements SortingAlgorithm<T> {
     private static final Logger logger = LogManager.getLogger(QuickSort.class);

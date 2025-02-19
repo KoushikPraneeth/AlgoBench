@@ -12,6 +12,7 @@ com/algobench/pro/benchmark/results/BenchmarkResult.class
 com/algobench/pro/algorithm/searching/SearchAlgorithm.class
 com/algobench/pro/visualization/progress/ProgressBar.class
 com/algobench/pro/algorithm/graph/DijkstraAlgorithm.class
+com/algobench/pro/algorithm/tree/BinarySearchTree$Node.class
 com/algobench/pro/ui/menu/MenuItem.class
 com/algobench/pro/algorithm/graph/DijkstraAlgorithm$VertexDistance.class
 com/algobench/pro/visualization/chart/ASCIIChartGenerator.class
@@ -21,6 +22,7 @@ com/algobench/pro/ui/menu/MainMenu$1.class
 com/algobench/pro/algorithm/graph/Graph.class
 com/algobench/pro/ui/menu/SortingMenu.class
 com/algobench/pro/visualization/progress/ProgressBar$NestedProgressBar.class
+com/algobench/pro/algorithm/tree/BinarySearchTree.class
 com/algobench/pro/benchmark/runner/BenchmarkRunner.class
 com/algobench/pro/benchmark/results/PerformanceReport.class
 com/algobench/pro/benchmark/results/RunStatistics.class

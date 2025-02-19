@@ -8,13 +8,30 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /**
- * Implementation of Dijkstra's algorithm for finding shortest paths in a graph.
- * @param <T> The type of vertices in the graph
+ * Implements Dijkstra's algorithm to find the shortest paths from a single source vertex to all other vertices
+ * in a weighted graph.
+ * <p>
+ * Dijkstra's algorithm is used for finding the shortest paths between nodes in a graph, which may represent, for example,
+ * road networks. It is particularly useful for finding the shortest paths in networks where edge weights are non-negative.
+ *
+ * <p><b>Type Parameter:</b></p>
+ * <ul>
+ *     <li>{@code <T>} - The type of vertices in the graph.</li>
+ * </ul>
+ *
+ * @param <T> the type of vertices in the graph
+ * @version 1.0
  */
 public class DijkstraAlgorithm<T> {
     private static final Logger logger = LogManager.getLogger(DijkstraAlgorithm.class);
     private final Graph<T> graph;
 
+    /**
+     * Constructs a DijkstraAlgorithm instance for a given graph.
+     *
+     * @param graph The graph on which Dijkstra's algorithm will be applied.
+     * @throws IllegalArgumentException if the graph is null.
+     */
     public DijkstraAlgorithm(Graph<T> graph) {
         if (graph == null) {
             throw new IllegalArgumentException("Graph cannot be null");
@@ -24,10 +41,13 @@ public class DijkstraAlgorithm<T> {
     }
 
     /**
-     * Finds the shortest paths from a source vertex to all other vertices in the graph.
-     * @param source The source vertex
-     * @return A map of vertices to their shortest distances from the source
-     * @throws IllegalArgumentException if the source vertex is not in the graph
+     * Executes Dijkstra's algorithm to compute the shortest paths from a source vertex to all reachable vertices
+     * in the graph.
+     *
+     * @param source The starting vertex from which to compute distances.
+     * @return A map containing the shortest distance from the source vertex to each vertex in the graph.
+     *         Vertices not reachable from the source are not included in this map.
+     * @throws IllegalArgumentException if the source vertex is not found in the graph.
      */
     public Map<T, Double> findShortestPaths(T source) {
         if (!graph.hasVertex(source)) {

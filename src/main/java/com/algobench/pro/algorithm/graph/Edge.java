@@ -1,17 +1,29 @@
 package com.algobench.pro.algorithm.graph;
 
 /**
- * Represents an edge in a graph, connecting two vertices.
- * @param <T> The type of vertices the edge connects
+ * {@code Edge} class represents a weighted edge in a graph, connecting a source vertex to a destination vertex.
+ * <p>
+ * Each edge has a destination vertex and a weight, which can represent distance, cost, or any other relevant metric
+ * for graph algorithms.
+ *
+ * <p><b>Type Parameter:</b></p>
+ * <ul>
+ *     <li>{@code <T>} - The type of vertices that this edge connects.</li>
+ * </ul>
+ *
+ * @param <T> the type of vertices connected by this edge
+ * @version 1.0
  */
 public class Edge<T> {
     private final T destination;
     private final double weight;
 
     /**
-     * Creates a new edge with the specified destination and weight.
-     * @param destination The vertex this edge points to
-     * @param weight The weight of the edge
+     * Constructs a new edge with a specified destination vertex and weight.
+     *
+     * @param destination The vertex that this edge points to. Must not be null.
+     * @param weight      The weight of this edge, representing the cost or distance to traverse to the destination vertex.
+     * @throws IllegalArgumentException if the destination vertex is null.
      */
     public Edge(T destination, double weight) {
         if (destination == null) {
@@ -22,16 +34,18 @@ public class Edge<T> {
     }
 
     /**
-     * Gets the destination vertex of this edge.
-     * @return The destination vertex
+     * Retrieves the destination vertex of this edge.
+     *
+     * @return The vertex at the end of this edge.
      */
     public T getDestination() {
         return destination;
     }
 
     /**
-     * Gets the weight of this edge.
-     * @return The edge weight
+     * Retrieves the weight of this edge.
+     *
+     * @return The weight of this edge.
      */
     public double getWeight() {
         return weight;

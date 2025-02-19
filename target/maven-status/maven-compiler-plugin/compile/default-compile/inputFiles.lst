@@ -7,6 +7,7 @@
 /Users/praneethkoushik/repos/AlgoBench Pro/src/main/java/com/algobench/pro/ui/menu/SortingMenu.java
 /Users/praneethkoushik/repos/AlgoBench Pro/src/main/java/com/algobench/pro/benchmark/results/PerformanceReport.java
 /Users/praneethkoushik/repos/AlgoBench Pro/src/main/java/com/algobench/pro/benchmark/metrics/PerformanceTimer.java
+/Users/praneethkoushik/repos/AlgoBench Pro/src/main/java/com/algobench/pro/algorithm/tree/BinarySearchTree.java
 /Users/praneethkoushik/repos/AlgoBench Pro/src/main/java/com/algobench/pro/visualization/chart/ASCIIChartGenerator.java
 /Users/praneethkoushik/repos/AlgoBench Pro/src/main/java/com/algobench/pro/ui/menu/MainMenu.java
 /Users/praneethkoushik/repos/AlgoBench Pro/src/main/java/com/algobench/pro/algorithm/graph/DijkstraAlgorithm.java

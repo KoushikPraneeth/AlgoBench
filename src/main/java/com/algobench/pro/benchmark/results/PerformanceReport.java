@@ -49,7 +49,7 @@ public class PerformanceReport {
                     String.format("%.2f", stats.getAverage().toMillis()),
                     String.format("%.2f", stats.getMin().toMillis()),
                     String.format("%.2f", stats.getMax().toMillis()),
-                    String.format("%.2f", results.getMemoryUsage().get(size) / 1024.0 / 1024.0)
+                    String.format("%.2f", (double)results.getMemoryUsage().get(size) / 1024.0 / 1024.0)
                 );
             }
         }

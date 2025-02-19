@@ -4,9 +4,18 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * Implementation of the Binary Search algorithm.
- * Note: This algorithm requires the input array to be sorted.
- * @param <T> The type of elements to search through
+ * Implements the Binary Search algorithm for searching in sorted arrays.
+ * <p>
+ * Binary search is an efficient algorithm for finding a target value within a sorted array.
+ * It works by repeatedly dividing in half the portion of the array that could contain the target value,
+ * comparing the target value to the middle element of the search interval, and narrowing down the search
+ * based on the comparison.
+ * <p>
+ * <b>Note:</b> This algorithm requires the input array to be sorted in ascending order for correct operation.
+ *
+ * @param <T> the type of elements in the array and the target value, must implement Comparable
+ * @version 1.0
+ * @see SearchAlgorithm
  */
 public class BinarySearch<T extends Comparable<T>> implements SearchAlgorithm<T> {
     private static final Logger logger = LogManager.getLogger(BinarySearch.class);
